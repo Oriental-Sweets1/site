@@ -1,0 +1,539 @@
+
+/*Zakladni stav*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.block{
+position: absolute;
+left: 100px;
+width: 1700px;
+height: 1700px;
+background-color:rgba(247,228,224, 0.25);
+}
+
+.pozadi{
+position: fixed;
+top: -15px;
+}
+
+.nabidka-container{
+position: absolute;
+top: 280px;
+width: 1920px;
+height: 1700px;
+background-color: rgb(190,208,244);
+}
+
+.nadpis{
+position: relative;
+top: 25px;
+text-align: center;
+font-size: 41px;
+color: black;
+font-family: 'Quicksand', sans-serif;
+transition: all 1s ease;
+}
+
+.border-left{
+position: absolute;
+text-align: center;
+top: 49px;
+left: 390px;
+font-size: 40px;
+border-bottom: 1px solid black;	
+width: 380px;
+}
+
+.border-right{	
+position: absolute;
+text-align: center;
+right: 390px;
+top: 49px;
+font-size: 40px;
+border-bottom: 1px solid black;	
+width: 380px;
+}
+
+/*_______________________________________________________________________*/
+
+.container-menu{
+position: absolute;
+left: -50px;
+z-index: 5;
+padding: 20px;
+}
+
+.container-menu h2{
+position: relative;
+top: 38px;
+left:200px;
+font-size: 28px;
+font-family: 'Quicksand', sans-serif;	
+}
+
+.container-menu ul{
+position: relative;
+top: 50px;
+left:220px;
+line-height: 34px;
+font-size: 18px;
+color: black;
+}
+
+.container-menu a{
+color: black;
+font-family: 'Quicksand', sans-serif;	
+}
+
+.container-menu a:hover{
+transition: all 0.4s ease;
+opacity: 0.7;
+font-size: 21px;
+}
+
+/*___________________PRVNI ŘADA_______________________________*/
+/*///////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////*/
+.obr-cast1{
+position: relative;
+top: 70px;
+left: 500px;
+}
+
+.obr-cast1 ul{
+letter-spacing: 50px;
+}
+
+.text-rada1{
+position: relative;
+letter-spacing: 0px;
+top: 15px;
+left: 15px;
+padding: 15px;
+}
+
+.obr-cast1 ol{
+display: flex;
+}
+
+#text2-1{
+position: relative;
+left: 200px;
+}
+
+#text3-1{
+position: relative;
+left: 400px;
+}
+
+#text4-1{
+position: relative;
+left: 520px;
+}
+
+.obr-cast1 ol h2{
+color: green;
+font-size: 18px;
+font-family: 'Quicksand', sans-serif;
+}
+
+.obr-cast1 li{
+position: relative;
+top: 25px;
+list-style: none;
+display: flex;
+}
+
+.obr-cast1 li h2{
+font-size: 20px;
+border:2px solid black;
+border-radius: 5px;
+padding: 15px;
+background-color: white;
+width: 260px;
+height: 50px;
+color: black;
+}
+
+#BUT1{
+position: relative;
+left: 0px;
+text-align: center;
+}
+
+#BUT2{
+position: relative;
+left: 70px;
+text-align: center;
+}
+
+#BUT3{
+position: relative;
+left: 150px;
+text-align: center;
+}
+
+#BUT4{
+position: relative;
+left: 200px;
+text-align: center;1
+}
+/*__________________________________________________*/
+/*__________________________________________________*/
+/*___________________________________________________*/
+/*___________________DRUHA ŘADA_______________________________*/
+
+.obr-cast2{
+position: relative;
+top: 180px;
+left: 500px;
+}
+
+.obr-cast2 ul{
+letter-spacing: 50px;
+}
+
+.text-rada2{
+position: relative;
+letter-spacing: 0px;
+top: 15px;
+left: 15px;
+padding: 15px;
+}
+
+.obr-cast2 ol{
+display: flex;
+}
+
+#text2{
+position: relative;
+left: 200px;
+}
+
+#text3{
+position: relative;
+left: 400px;
+}
+
+#text4{
+position: relative;
+left: 520px;
+}
+
+.obr-cast2 ol h2{
+color:red;
+font-size: 18px;
+font-family: 'Quicksand', sans-serif;
+}
+
+.obr-cast2 li{
+position: relative;
+top: 25px;
+list-style: none;
+display: flex;
+}
+
+.obr-cast2 li h2{
+font-size: 20px;
+border:2px solid black;
+border-radius: 5px;
+padding: 15px;
+background-color: white;
+width: 260px;
+height: 50px;
+color: black;
+}
+
+#BUT1-1{
+position: relative;
+left: 0px;
+text-align: center;
+}
+
+#BUT2-1{
+position: relative;
+left: 70px;
+text-align: center;
+}
+
+#BUT3-1{
+position: relative;
+left: 150px;
+text-align: center;
+}
+
+#BUT4-1{
+position: relative;
+left: 200px;
+text-align: center;
+}
+/*__________________________________________________*/
+/*__________________________________________________*/
+/*_________________TŘETÍ ŘADA________________________*/
+.obr-cast3{
+position: relative;
+top: 290px;
+left: 500px;
+}
+
+.obr-cast3 ul{
+letter-spacing: 50px;
+}
+
+.text-rada3{
+position: relative;
+letter-spacing: 0px;
+top: 15px;
+left: 15px;
+padding: 15px;
+}
+
+.obr-cast3 ol{
+display: flex;
+}
+
+#text2-3{
+position: relative;
+left: 200px;
+}
+
+#text3-3{
+position: relative;
+left: 400px;
+}
+
+#text4-3{
+position: relative;
+left: 520px;
+}
+
+.obr-cast3 ol h2{
+color: black;
+font-size: 18px;
+font-family: 'Quicksand', sans-serif;
+}
+
+.obr-cast3 li{
+position: relative;
+top: 25px;
+list-style: none;
+display: flex;
+}
+
+.obr-cast3 li h2{
+font-size: 20px;
+border:2px solid black;
+border-radius: 5px;
+padding: 15px;
+background-color: white;
+width: 260px;
+height: 50px;
+color: black;
+}
+
+#BUT1-3{
+position: relative;
+left: 0px;
+text-align: center;
+}
+
+#BUT2-3{
+position: relative;
+left: 70px;
+text-align: center;
+}
+
+#BUT3-3{
+position: relative;
+left: 150px;
+text-align: center;
+}
+
+#BUT4-3{
+position: relative;
+left: 200px;
+text-align: center;
+}
+/*__________________________________________________*/
+/*__________________________________________________*/
+/*___________________________________________________*/
+
+.container-menu{
+position: absolute;
+left: -50px;
+z-index: 5;
+padding: 20px;
+}
+
+.container-menu h2{
+position: relative;
+top: 38px;
+left:200px;
+font-size: 28px;
+font-family: 'Quicksand', sans-serif;	
+}
+
+.container-menu ul{
+position: relative;
+top: 50px;
+left:220px;
+line-height: 34px;
+font-size: 18px;
+color: black;
+}
+
+.container-menu a{
+color: black;
+font-family: 'Quicksand', sans-serif;	
+}
+
+.container-menu a:hover{
+transition: all 0.4s ease;
+opacity: 0.7;
+font-size: 21px;
+}
+
+
+.container-nav{
+position: relative;
+left: 600px;
+}
+
+.MENUx{
+background-color: rgba(84, 84, 89, 0.4);
+position: fixed;
+z-index: 2;
+width: 1920px;
+height: 85px;
+border-bottom: 2px solid black;
+border-left: 0px;
+border-right: 0px;
+border-top: 2px solid black;
+}
+
+.MENUx ul{
+position: fixed;
+display: flex;
+}
+.MENUx ul li {
+position: relative;
+top: 30px;
+left: 90px;
+text-decoration: none;
+padding: 0px 20px;
+font-size: 21px; 
+}
+.MENUx ul li a{
+color:black;
+font-family: 'Quicksand', sans-serif;
+}
+.MENUx ul li a:hover{
+transition: all 0.4s ease;
+opacity: 0.7;
+font-size: 22px;
+}
+
+.koruna{
+position: fixed;
+left: 910px;
+z-index: 3;
+
+}
+.kontakty-menu{
+position: absolute;
+z-index: 2;
+right: 200px;
+text-decoration: none;
+font-size: 21px; 
+font-family: 'Quicksand', sans-serif;
+
+}
+
+.IG{
+position: fixed;
+width: 260px;
+top: 10px;
+right: 100px;
+font-size: 20px;
+color: white;
+}
+
+.FB{	
+position: fixed;
+width: 255px;
+z-index: ;
+top: 44px;
+right: 106px;
+font-size: 20px;
+color: white;
+}
+.TEL{
+position: fixed;
+width: 140px;
+top: 10px;
+right: 600px;
+font-size: 20px;
+color: white;	
+}
+.Gmail{
+width: 300px;
+position: fixed;
+top: 44px;
+right: 440px;
+font-size: 20px;
+color: white;
+}
+.Gmail:hover{
+transition: all 0.4s ease;
+opacity: 0.7;
+font-size: 20.3px;
+}
+.TEL:hover{
+transition: all 0.4s ease;
+opacity: 0.7;
+font-size: 21px;
+}
+.FB:hover{
+transition: all 0.4s ease;
+opacity: 0.7;
+font-size: 21px;
+}
+.IG:hover{
+transition: all 0.4s ease;
+opacity: 0.7;
+font-size: 21px;
+}

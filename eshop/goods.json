@@ -1,0 +1,34 @@
+	{
+
+	"10001" : {
+		"name" : "Lokum1", 
+		"cost" : 80,
+		"description" : "TEXT_text_123",
+		"image" : "obr1.jpg"
+
+},	
+
+	"10002" : {
+		"name" : "Lokum2", 
+		"cost" : 110,
+		"description" : "TEXT_text_123",
+		"image" : "obr2.jpg"
+
+},
+
+	"10003" : {
+		"name" : "Lokum3", 
+		"cost" : 10,
+		"description" : "TEXT_text_123",
+		"image" : "obr3.jpg"
+
+},
+
+	"10004" : {
+		"name" : "Lokum4", 
+		"cost" : 105,
+		"description" : "TEXT_text_123",
+		"image" : "obr4.jpg"
+}
+
+	}
